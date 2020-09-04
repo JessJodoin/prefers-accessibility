@@ -80,9 +80,17 @@ html {
 
 @media (prefers-color-scheme: dark) {
 
+  body {
+    background-color: #111;
+  }
+
+  .banner {
+    background-color: #444;
+  }
+
   .banner h1 {
-    background-color: #000;
-    color: #fff;
+    background-color: rgba(0, 0, 0, .7);
+    color: #ddd;
   }
 
 }
